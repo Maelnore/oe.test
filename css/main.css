@@ -1,0 +1,379 @@
+@import "../fonts/bootstrap/glyphicons-halflings-regular.eot"
+@import "../fonts/bootstrap/glyphicons-halflings-regular.svg"
+@import "../fonts/bootstrap/glyphicons-halflings-regular.ttf"
+@import "../fonts/bootstrap/glyphicons-halflings-regular.woff"
+@import "../fonts/bootstrap/glyphicons-halflings-regular.woff2"
+
+ul {
+  margin-left:0;
+  padding-left: 0;
+  padding-inline-start:0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@font-face {
+    font-family: OpenSans-SemiBold;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(../fonts/OpenSans-Light.ttf);
+}
+
+@media (max-width: 960px) {
+
+  .shop-area {
+    padding-bottom: 33px!important;
+  }
+
+  .under-constraction {
+    margin-bottom: 20px!important;
+  }
+
+  .last-ul {
+    margin-bottom: 20px!important;
+  }
+
+  .contacts-left {
+    padding-left: 15px!important;
+  }
+
+  .contacts-right {
+    padding-right: 15px!important;
+  }
+
+  .adreses-line {
+    padding-top: 33px!important;
+    text-align: center;
+  }
+
+  .logo-block {
+    text-align: center;
+  }
+
+  .wrapper-top {
+        width: auto!important;
+        padding-top: 30px!important;
+    }
+
+    .wrapper-middle{
+    	display: none;
+        width: auto!important;
+        background: url(../img/shopping.png)!important;
+        background-repeat: no-repeat!important;
+        /*background-position: center!important;*/
+        background-color: #56A3B8!important;
+    }
+
+    .wrapper-bot{
+        width: auto!important;
+        border-left: none!important;
+        border-right: none!important;
+        border-bottom: none!important;
+    }
+
+    .logo-oe{
+        margin: 0 auto;
+    }
+
+    .top-menu {
+      float: initial!important;
+      text-align: center;
+    }
+
+    .top-menu li{
+      padding-left:25px!important;
+    }
+
+    .adress-row-3 {
+      padding-top: 0!important;
+    }
+
+    .adress-row-1 {
+      padding-top: 0!important;
+    }
+
+    .adresses a {
+      text-decoration: underline!important;
+    }
+  
+}
+
+.show-only-sm {
+    display: none;
+}
+
+.wrapper-top {
+    width: 960px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 40px;
+}
+
+.wrapper-middle{
+    width: 960px;
+    margin: 0 auto;
+    /*padding-left: 15px;
+    padding-right: 15px;
+    background: url(../img/shopping.png);*/
+    height: 600px;
+    position: relative;
+    margin-top: 25px;
+}
+
+.wrapper-bot{
+    width: 960px;
+    margin: 0 auto;
+    padding-left: 22px;
+    padding-right: 22px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.logo-block {
+  padding-left: 22px;
+  margin: 0px; 
+  float: left;
+}
+
+.logo-oe {
+    background-image:url(../img/logo-oe.png);
+    width: 156px;
+    height: 50px;
+    background-repeat: no-repeat;
+}
+
+.logo-obnova {
+    background-image:url(../img/logo-obnova.png);
+    width: 168px;
+    height: 27px;
+    background-repeat: no-repeat;
+    margin-left: 25px;
+}
+
+.logo-list {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+
+.logo-list li {
+  display: inline-block;
+}
+
+/*.logo-oe {
+    background-image:url(../img/oe-logo.png);
+    width: 156px;
+    height: 66px;
+    background-repeat: no-repeat;
+}*/
+
+.top-menu {
+    font-family: OpenSans-SemiBold;
+    font-size: 16px;
+    padding: 0px;
+    float: right;
+    margin-bottom: 0;
+}
+
+.top-menu li {
+    display: inline-block;
+    padding-left: 80px;
+    cursor: pointer;
+    margin-top: 33px;
+}
+
+.top-menu li:first-child {
+    padding-left: 0!important;
+}
+
+.top-menu li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.top-menu-div {
+  /*text-align: center;*/
+  padding-right: 22px;
+}
+
+.grey {
+  background-color: #c5c3c6; 
+}
+
+.city-name {
+    font-family: OpenSans-SemiBold;
+    font-size: 14px;
+    color: #292930;
+}
+
+.adresses {
+    font-family: OpenSans-Light;
+    font-size: 13px;
+    color: #000000;
+}
+
+.footer-bg {
+  width: 1774px;
+  height: 727px;
+  position: absolute;
+  top: 100%;
+}
+
+.adresses-h{
+    font-family: OpenSans-SemiBold;
+    font-size: 25px;
+    color: #000000;
+}
+
+.adreses-line {
+  padding-top: 50px;
+  margin-bottom: 30px; 
+}
+
+.shop-graph {
+  font-size: 13px;
+  color: #999999;
+  margin-left: 40px;
+}
+
+.sunday {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.thursday {
+  margin-left: 11px;
+  margin-right: 11px;
+}
+
+.days {
+  font-size: 14px;
+  text-align: center;
+  color: #999999;
+  margin-left: 43px;
+  margin-right: 6px; 
+  padding-right: 15px;
+  border-right: 1px solid #999;
+}
+
+.times {
+  color: #999999;
+}
+
+.work-time{
+  margin-bottom: 20px;
+}
+
+.work-time li{
+  display: inline-block;
+  margin-top: 7px;
+}
+
+.flower-bg {
+  background-image: url(../img/footer-flower1.png);
+  background-position: bottom;
+  background-repeat: no-repeat; 
+  padding-bottom: 95px;
+}
+
+.adress-row-1 {
+  padding-top: 95px;
+}
+
+.adress-row-2 { 
+  padding-top: 0px;
+}
+
+.adress-row-3 { 
+  padding-top: 46px;
+}
+
+.shop-area {
+  padding-bottom: 60px;
+}
+
+.credits{
+  color: #000;
+  font-family: OpenSans-Light;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.adresses a {
+  color: #000;
+}
+
+.br-grey {
+	background-color: #eee;
+	padding: 10px;
+	margin-top: 12px;
+}
+
+.arrow-nav {
+  position: absolute;
+  top: 275px;
+  width: 22px;
+  height: 50px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.right-arrow-slider {
+  right: 0;
+  background-image: url(../img/right-arrow-min.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.left-arrow-slider {
+  left: 0;
+  background-image: url(../img/left-arrow-min.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.left-arrow-glyphicon, .right-arrow-glyphicon{
+  font-size: 50px;
+  top: 17px;
+}
+
+.contacts-left {
+  padding-left: 0;
+}
+
+.contacts-right {
+  padding-right: 0;
+}
+
+.n-m-l-r {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.last-ul {
+  margin-bottom:0;
+}
+
+.rowfafari{
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-flex-wrap: wrap;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+display: inline-flex;
+flex-direction: row;
+}
